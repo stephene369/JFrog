@@ -9,9 +9,12 @@ JAVA_HOME=/usr/lib/jvm/
 
 
 # Installing Artifactory
-wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
-sudo mv bintray-jfrog-artifactory-rpms.repo /etc/yum.repos.d/
-sudo yum install jfrog-artifactory-oss
+## wget -O artifactory.zip https://jfrog.bintray.com/artifactory/jfrog-artifactory-oss-<VERSION>.zip
+wget -O artifactory.zip https://jfrog.bintray.com/artifactory/jfrog-artifactory-oss-6.9.6.zip
+sudo apt-get install unzip
+unzip artifactory.zip -d /opt
+mv /opt/artifactory-oss-<VERSION> /opt/artifactory
+
 
 # Setup Service
 sudo chkconfig artifactory on
