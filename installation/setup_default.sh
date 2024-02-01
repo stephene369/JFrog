@@ -1,7 +1,7 @@
 #Default values
 export ARTIFACTORY_HOME=/opt/jfrog/artifactory
 export ARTIFACTORY_USER=artifactory
-export JAVA_HOME=/usr/bin
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-amazon-corretto.x86_64
 
 export START_LOCAL_REPLICATOR=true
 
