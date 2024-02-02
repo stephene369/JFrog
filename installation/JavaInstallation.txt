@@ -1,0 +1,9 @@
+
+For Java 11:
+
+## For JRE 11
+sudo dnf install java-11-amazon-corretto
+
+## For JDK 11
+sudo dnf install java-11-amazon-corretto-devel
+
