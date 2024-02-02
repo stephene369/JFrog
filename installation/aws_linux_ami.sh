@@ -1,6 +1,6 @@
 #!/bin/bash
 # Upgrade to Java-8
-sudo yum install java-1.8.0
+sudo yum install java-1.8.0-openjdk* -y
 sudo yum remove java-1.7.0-openjdk
 
 ## Setting up JAVA_HOMO 
