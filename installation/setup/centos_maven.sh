@@ -24,7 +24,7 @@ export PATH=${M2_HOME}/bin:${PATH}' | sudo tee /etc/profile.d/maven.sh
 sudo chmod +x /etc/profile.d/maven.sh
 
 ## Aply environment variables 
-sudo source /etc/profile.d/maven.sh
+source /etc/profile.d/maven.sh
 
 ## Check version 
 mvn -version
