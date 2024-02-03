@@ -33,5 +33,25 @@ mvn -version
 sudo /opt/apache-maven-3.9.6/bin/mvn compile
 
 
+##### OTHER WAY 
+
+sudo yum install java-1.8.0-devel
+
+
+## Add repository
+sudo wget https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+
+## Specifiy version 
+sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+
+## installation 
+sudo yum install -y apache-maven
+
+
+
+
+
+
+
 
 
