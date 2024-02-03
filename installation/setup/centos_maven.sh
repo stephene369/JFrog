@@ -29,5 +29,9 @@ source /etc/profile.d/maven.sh
 ## Check version 
 mvn -version
 
+## To compile et project l go in the current directory and  :
+sudo /opt/apache-maven-3.9.6/bin/mvn compile
+
+
 
 
