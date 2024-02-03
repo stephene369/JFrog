@@ -1,3 +1,5 @@
+#!/bin/bash
+
 
 ##Change Host Name to Artifactory
 sudo hostnamectl set-hostname Artifactory
