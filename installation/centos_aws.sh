@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## install Java 
-yum install java=1.8.0-openjdk-devel 
+yum install java-1.8.0-openjdk-devel 
 
 ## Settng docket reposotory up 
 sudo yum install -y yum-utils
