@@ -11,7 +11,7 @@ sudo yum install java-1.8.0-openjdk-devel
 
 ##   Download Apache maven and decompress
 cd /opt
-wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
 sudo tar zxvf apache-maven-3.9.6-bin.tar.gz
 
 ## Configuration variable environement
@@ -24,7 +24,7 @@ export PATH=${M2_HOME}/bin:${PATH}' | sudo tee /etc/profile.d/maven.sh
 sudo chmod +x /etc/profile.d/maven.sh
 
 ## Aply environment variables 
-source /etc/profile.d/maven.sh
+sudo source /etc/profile.d/maven.sh
 
 ## Check version 
 mvn -version
