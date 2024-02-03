@@ -9,4 +9,4 @@ sudo apt install maven -y
 ## Check version 
 mvn --version
 
-
+sudo apt install openjdk-8-jdk -y
