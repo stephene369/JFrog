@@ -15,7 +15,9 @@ sudo service docker start
 sudo usermod -a -G docker ec2-user
 
 ## enabling docker service
-sudo chkconfig docker on#Reboot the EC2 instance
+sudo chkconfig docker on
+
+#Reboot the EC2 instance
 docker info
 
 ## Download Artifactory Docker image
