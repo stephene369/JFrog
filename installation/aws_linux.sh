@@ -3,6 +3,7 @@
 
 #updating amazon linux patches
 sudo yum update -y
+sudo yum install java-1.8.0-devel
 
 ## installing docker engine
 sudo amazon-linux-extras install docker -y
