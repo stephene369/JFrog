@@ -27,7 +27,7 @@ sudo docker pull docker.bintray.io/jfrog/artifactory-oss
 sudo docker images 
 
 ## Run JFrog Artifactory name as a Docker IMage 
-sudo docker run -it -d -p 8081:8081 -p 8082:8082 --name artifactory1 docker.bintray.io/jfrog/artifactory-oss
+sudo docker run -it -d -p 8081:8081 -p 8082:8082 --name artifactory docker.bintray.io/jfrog/artifactory-oss
 sudo docker run -it -d -p 8082:8082 --name artifactory2 docker.bintray.io/jfrog/artifactory-oss
 
 ## check if it running and Logs
